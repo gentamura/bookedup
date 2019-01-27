@@ -1,0 +1,6 @@
+<h1>StaticPages#index</h1>
+<% if user_signed_in? %>
+  <%= link_to 'user page', user_path(current_user) %>
+<% else %>
+  Please log in.
+<% end %>

@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Book day:</strong>
+  <%= @book.book_day %>
+</p>
+
+<p>
+  <strong>Start time:</strong>
+  <%= @book.start_time %>
+</p>
+
+<p>
+  <strong>End time:</strong>
+  <%= @book.end_time %>
+</p>
+
+<p>
+  <strong>Memo:</strong>
+  <%= @book.memo %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @book.last_name %>
+</p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @book.first_name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @book.email %>
+</p>
+
+<p>
+  <strong>Tel:</strong>
+  <%= @book.tel %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @book.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_book_path(@book) %> |
+<%= link_to 'Back', books_path %>

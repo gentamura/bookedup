@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  book_day: 2016-05-23 17:06:50
+  start_time: 2016-05-23 17:06:50
+  end_time: 2016-05-23 17:06:50
+  memo: MyText
+  last_name: MyString
+  first_name: MyString
+  email: MyString
+  tel: MyString
+  user_id: 1
+
+two:
+  book_day: 2016-05-23 17:06:50
+  start_time: 2016-05-23 17:06:50
+  end_time: 2016-05-23 17:06:50
+  memo: MyText
+  last_name: MyString
+  first_name: MyString
+  email: MyString
+  tel: MyString
+  user_id: 1
